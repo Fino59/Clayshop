@@ -1,0 +1,17 @@
+footer {
+    display: block;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    margin-top: 240px;
+    background-color: rgba(143, 199, 236, 0.719);
+    border-radius: 10px 10px 0 0;
+    padding: 20px 40px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
