@@ -1,0 +1,58 @@
+body {
+    background-image: url(../assets/images/ClayBeauty.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 8rem;
+}
+
+.main-nav {
+    display: flex;   
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif; 
+    margin-right: 90px;
+}
+
+.main-logo {
+    display: flex;
+    color: #C5D6E6;
+    font-family: 'Playfair Display', serif;    
+}
+
+.main-logo img {
+    width: fit-content;
+    height: fit-content;
+}
+
+.main-logo p {
+    padding-left: 10px;
+    padding-right: 10px;        
+}
+
+.main-logo::after {
+    content: ''; 
+    position: relative;
+    display: block;
+    border-top: 75px solid #3648bab8;
+    width: 2px;
+    margin: -40px 0px 0px 5px;
+}
+
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 40px;
+    font-size: 1.3rem;
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-shadow: 2px 2px 3px rgb(252 0 255);
+}
