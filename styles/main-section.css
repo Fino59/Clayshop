@@ -33,7 +33,7 @@
 
 .main-section.text .subtitle {
     color: #ffffff9d;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     margin-bottom: 2rem;
@@ -57,4 +57,11 @@ a .button {
     top: 655px;
     left: 190px;
     cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+a .button:hover {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 3px 3px 10px 3px #9c27b0;  
 }
